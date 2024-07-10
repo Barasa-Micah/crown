@@ -1,5 +1,5 @@
 import React from "react";
-
+import './LoginPage.css';
 
 const LoginPage = () => {
     return(
@@ -27,7 +27,7 @@ const LoginPage = () => {
                 </div>
                 <button type="submit">Login Now</button>
             </form>
-            <a href="/forgot-password">Forgot Password</a>
+            <a href="/forgot-password">Forgot Password?</a>
             <a href="/create-account">Create Account</a>
 
             <footer>
