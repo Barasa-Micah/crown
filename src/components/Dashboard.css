@@ -47,7 +47,7 @@ body {
 }
 
 .main-content {
-  margin-left: 220px; 
+  margin-left: 220px; /* Adjust this to match the sidebar width + padding */
   flex-grow: 1;
   background: linear-gradient(to bottom right, #007BFF, #0056b3);
   padding: 20px;
