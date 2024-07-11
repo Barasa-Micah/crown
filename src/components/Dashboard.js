@@ -1,5 +1,6 @@
 import React from 'react';
 import './Dashboard.css';
+
 const Dashboard = () => {
   return (
     <div className="dashboard-container">
@@ -32,8 +33,17 @@ const Dashboard = () => {
         <a href="#agent-claim">
           <i className="fas fa-hand-holding-usd"></i> Agent Claim
         </a>
+        <a href="#account-token">
+          <i className="fas fa-key"></i> Account Token
+        </a>
+        <a href="#contact">
+          <i className="fas fa-address-book"></i> Contact
+        </a>
         <a href="#settings">
           <i className="fas fa-cog"></i> Settings
+        </a>
+        <a href="#logout">
+          <i className="fas fa-sign-out-alt"></i> Logout
         </a>
       </div>
       <div className="main-content">
